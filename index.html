@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapay Zeka ve Meslekler</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Arkaplan animasyonu için elementler -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <header class="glass-header">
+        <div class="header-content">
+            <img src="images/logo.png" alt="KSBÜ Logo" class="header-logo">
+            <h1>Yapay Zeka & Meslekler</h1>
+            <img src="images/logo.png" alt="KSBÜ Logo" class="header-logo">
+            <button id="back-button" class="back-btn hidden">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Geri Dön
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Sektörler Ekranı -->
+        <section id="sectors-container" class="view-section active">
+            <h2 class="section-title">Sektörler</h2>
+            <p class="section-subtitle">Yapay zekanın dönüştürdüğü ana sektörleri keşfedin.</p>
+            <div id="sectors-list" class="grid-container">
+                <!-- Sektör Kartları Buraya Gelecek -->
+            </div>
+        </section>
+
+        <!-- Meslekler Ekranı -->
+        <section id="professions-container" class="view-section hidden">
+            <h2 id="sector-title" class="section-title">Meslekler</h2>
+            <p class="section-subtitle">Bu sektördeki yapay zeka odaklı mesleklere göz atın.</p>
+            <div id="professions-list" class="grid-container">
+                <!-- Meslek Kartları Buraya Gelecek -->
+            </div>
+        </section>
+
+        <!-- Meslek Detay Ekranı -->
+        <section id="detail-container" class="view-section hidden">
+            <div id="profession-detail">
+                <!-- Detay İçeriği Buraya Gelecek -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
