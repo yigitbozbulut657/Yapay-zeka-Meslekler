@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yapay Zeka ve Meslekler</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
     <!-- Arkaplan animasyonu için elementler -->
     <div class="bg-shape shape-1"></div>
     <div class="bg-shape shape-2"></div>
@@ -16,22 +19,30 @@
 
     <header class="glass-header">
         <div class="header-content">
-            <img src="images/topluluk.png?v=3" alt="Yapay Zeka Topluluğu Logo" class="header-logo">
+            <img src="images/topluluk.png?v=3" alt="Yapay Zeka Topluluğu Logo" class="header-logo" id="logo-community">
             <h1>Yapay Zeka & Meslekler</h1>
-            <img src="images/logo.png?v=3" alt="KSBÜ Logo" class="header-logo">
+            <a href="https://www.ksbu.edu.tr/defaultx" target="_blank" rel="noopener noreferrer">
+                <img src="images/logo.png?v=3" alt="KSBÜ Logo" class="header-logo" id="logo-ksbu">
+            </a>
         </div>
     </header>
 
     <main class="container">
-        
-        <div class="navigation-bar" style="margin-bottom: 2rem;">
+
+        <div class="navigation-bar">
             <button id="back-button" class="back-btn hidden">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
                     <line x1="19" y1="12" x2="5" y2="12"></line>
                     <polyline points="12 19 5 12 12 5"></polyline>
                 </svg>
                 Geri Dön
             </button>
+            
+            <div id="search-container" class="search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="search-input" placeholder="Meslek veya sektör ara...">
+            </div>
         </div>
 
         <!-- Sektörler Ekranı -->
@@ -40,6 +51,15 @@
             <p class="section-subtitle">Yapay zekanın dönüştürdüğü ana sektörleri keşfedin.</p>
             <div id="sectors-list" class="grid-container">
                 <!-- Sektör Kartları Buraya Gelecek -->
+            </div>
+        </section>
+
+        <!-- Arama Sonuçları Ekranı -->
+        <section id="search-results-container" class="view-section hidden">
+            <h2 class="section-title">Arama Sonuçları</h2>
+            <p id="search-subtitle" class="section-subtitle">Sonuçlar listeleniyor...</p>
+            <div id="search-results-list" class="grid-container">
+                <!-- Arama Kartları Buraya Gelecek -->
             </div>
         </section>
 
@@ -61,6 +81,11 @@
 
     </main>
 
+    <button id="scroll-top-btn" class="scroll-top-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
     <script src="script.js"></script>
 </body>
+
 </html>

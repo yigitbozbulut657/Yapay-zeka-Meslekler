@@ -1,42 +1,29 @@
-# Yapay Zeka ve Meslekler (AI & Professions)
+# Yapay Zeka ve Meslekler
 
-Yapay zekanın gelecekteki ve günümüzdeki etkisini 34 farklı meslek üzerinden derinlemesine inceleyen, modern "Glassmorphism" tasarımıyla geliştirilmiş interaktif ve yenilikçi bir web uygulaması.
+[Siteyi Ziyaret Et](https://yigitbozbulut657.github.io/Yapay-zeka-Meslekler/)
 
-## 🚀 Proje Hakkında
+![Karekod](Karekod.png)
 
-Bu proje, yapay zekanın sağlık, teknoloji, mühendislik ve sosyal bilimler başta olmak üzere **34 farklı alandaki** dönüşümünü detaylı vaka analizleri ve spesifik yapay zeka görselleri ile sunar.
+Yapay zekanın günümüzdeki ve gelecekteki etkilerini 34 farklı meslek üzerinden inceleyen interaktif bir web uygulamasıdır. Kullanıcılar, sağlık, teknoloji ve temel bilimler gibi sektörler altındaki meslekleri seçerek yapay zekanın bu alanlardaki dönüşümünü, mevcut projelerini ve gelecek vizyonunu detaylı olarak inceleyebilirler.
 
-Kullanıcılar üç ana sektör (Sağlık Bilimleri, Sağlık Teknolojileri ve Temel Bilimler) altında istedikleri mesleği seçebilir ve yapay zekanın o meslekteki:
-- **Genel Bakışını (Dönüşümünü)**
-- **Mevcut Projelerini**
-- **Gelecek Vizyonunu**
-detaylı bir şekilde inceleyebilirler.
+## Proje Hakkında
 
-## 🌟 Özellikler
+Bu proje, Kütahya Sağlık Bilimleri Üniversitesi (KSBÜ) akademik vizyonuna uygun olarak hazırlanmıştır. Geliştirilen uygulama, sayfa yenilenmeden hızlı geçiş sağlayan dinamik bir mimariye (Single Page Application) sahiptir ve modern arayüz tasarımı (Glassmorphism) kullanılarak oluşturulmuştur. Her bir meslek için özgün yazılmış teknik makaleler, proje simülasyonları ve yapay zeka ile tasarlanmış görseller dinamik olarak sunulmaktadır.
 
-- **Modern UI/UX:** Güncel "Glassmorphism" (Buzlu Cam) tasarımı, yumuşak geçişler ve hareketli arka planlar.
-- **Kapsamlı Veri (Big Data):** Tamamı özgün yazılmış teknik makaleler, mevcut/gelecek proje simülasyonları.
-- **Yapay Zeka Destekli Görseller:** 34 mesleğin tamamı için yapay zeka ile özel olarak tasarlanmış, mesleğin ruhuna uygun fütüristik görseller.
-- **Dinamik SPA (Single Page Application):** Sayfa yenilenmeden çok hızlı ve pürüzsüz geçiş sağlayan saf JavaScript (Vanilla JS) altyapısı.
+## Teknik Detaylar ve Kurulum
 
-## 🛠️ Kullanılan Teknolojiler
+**Kullanılan Teknolojiler:**
+- HTML5 ve CSS3
+- Saf (Vanilla) JavaScript
+- Python (Veri işleme ve görsel otomasyon scriptleri)
 
-- **HTML5** (Semantik yapı)
-- **CSS3** (Glassmorphism, Flexbox, Grid, Animasyonlar)
-- **Vanilla JavaScript** (Dinamik DOM manipülasyonu, JSON veri çekimi)
-- **Python** (Veri tabanının oluşturulması ve görsellerin toplu işlenmesi/arkaplan silinmesi için otomasyon scriptleri)
-
-## 📁 Kurulum ve Çalıştırma
-
-Projeyi bilgisayarınızda çalıştırmak için ekstra bir sunucu kurulumuna gerek yoktur. Ancak güvenlik politikaları (CORS) nedeniyle `.json` verilerinin okunabilmesi için yerel bir sunucu başlatılması önerilir.
+**Çalıştırma Adımları:**
+Projeyi kendi bilgisayarınızda (lokalde) çalıştırmak isterseniz, tarayıcıların JSON dosyası okuma güvenlik kuralları (CORS) nedeniyle yerel bir sunucu başlatmanız önerilir.
 
 1. Proje dosyalarını bilgisayarınıza indirin.
-2. Terminal (veya Komut İstemcisi) üzerinden proje klasörüne gidin.
-3. Python yüklüyse şu komutu çalıştırarak yerel sunucuyu başlatın:
+2. Terminal üzerinden proje klasörüne gidin.
+3. Python kullanarak yerel sunucuyu başlatın:
    ```bash
    python -m http.server 8000
    ```
 4. Tarayıcınızdan `http://localhost:8000` adresine giderek projeyi görüntüleyin.
-
----
-*Geliştirme aşamasında her detay özenle kurgulanmış ve Kütahya Sağlık Bilimleri Üniversitesi (KSBÜ) akademik vizyonuna uygun fütüristik bir altyapıyla tasarlanmıştır.*
