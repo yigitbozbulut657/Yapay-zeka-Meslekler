@@ -2,6 +2,14 @@
 
 Bu dosyada projeye ait tüm önemli güncellemeler, yeni özellikler ve düzeltmeler sürümler halinde listelenmektedir.
 
+## [V1.3] - 2026-07-21
+### Eklenenler / Güncellenenler
+- **Global Filigran (Watermark) Entegrasyonu:** Sadece detay sayfasında olan arka plan logo silüeti, ana sayfaya (sektörler listesi), meslekler listesine ve arama sonuçlarına da eklendi. Sayfaların boş görünmesi engellenerek derinlik kazandırıldı.
+- **Dinamik Arka Plan Animasyonu:** Sabit ve yapay görünümü kırmak adına, arka plandaki silüete yumuşak bir hareket (yavaş dönme, süzülme ve nefes alma) animasyonu eklendi.
+- **Gelişmiş Mobil Uyumluluk:** Filigranın mobil ekranlarda sağa sola kayma (yatay scroll) yapmasını ve görüntü kirliliği oluşturmasını engellemek için özel CSS (media queries) ve GPU hızlandırmalı transform özellikleri kullanıldı.
+
+---
+
 ## [V1.2] - 2026-07-21
 ### Eklenenler / Güncellenenler
 - **İçerik Güncellemesi:** Mesleklerin detay sayfalarındaki "Genel Bakış", "Mevcut Projeler" ve "Gelecek Vizyonu" metinleri zenginleştirildi ve HTML formatına uygun hale getirildi.

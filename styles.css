@@ -359,19 +359,41 @@ body {
     overflow: hidden; /* Keep watermark from spilling out */
 }
 
-.app-watermark {
-    position: absolute;
-    bottom: 0;
-    right: -5%;
+.global-watermark {
+    position: fixed;
+    bottom: -5%;
+    right: -10%;
     pointer-events: none;
     z-index: -1;
     opacity: 0.05;
-    transform: rotate(-10deg) scale(1.5);
 }
 
-.app-watermark img {
-    width: 50vw;
-    max-width: 600px;
+.global-watermark img {
+    width: 80vw;
+    max-width: 700px;
+    animation: floatWatermark 20s ease-in-out infinite alternate;
+}
+
+@keyframes floatWatermark {
+    0% {
+        transform: rotate(-10deg) translate(0, 0) scale(1);
+    }
+    50% {
+        transform: rotate(-13deg) translate(-15px, -25px) scale(1.02);
+    }
+    100% {
+        transform: rotate(-7deg) translate(10px, 15px) scale(0.98);
+    }
+}
+
+@media (max-width: 768px) {
+    .global-watermark {
+        bottom: 5%;
+        right: -20%;
+    }
+    .global-watermark img {
+        width: 120vw;
+    }
 }
 
 @media (min-width: 768px) {
