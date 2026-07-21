@@ -2,6 +2,13 @@
 
 Bu dosyada projeye ait tüm önemli güncellemeler, yeni özellikler ve düzeltmeler sürümler halinde listelenmektedir.
 
+## [V1.2] - 2026-07-21
+### Eklenenler / Güncellenenler
+- **İçerik Güncellemesi:** Mesleklerin detay sayfalarındaki "Genel Bakış", "Mevcut Projeler" ve "Gelecek Vizyonu" metinleri zenginleştirildi ve HTML formatına uygun hale getirildi.
+- **Topluluk Logosu Filigranı (Watermark):** Metin okuma ekranında arka plandaki boşluğu doldurmak amacıyla, Yapay Zeka Topluluğu logosu mobil cihazlarla da tam uyumlu çalışacak şekilde arka plana bir silüet (filigran) olarak entegre edildi.
+
+---
+
 ## [V1.1] - 2026-07-18
 ### Eklenenler (Yeni Özellikler)
 - **Akıllı Arama Çubuğu (Search Bar):** Üst gezinme çubuğuna sektör ve meslek arayabileceğiniz dinamik bir arama kutusu eklendi. Anahtar kelimeler ile mesleklere saniyeler içinde erişilebiliyor.
