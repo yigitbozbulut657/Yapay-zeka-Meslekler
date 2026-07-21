@@ -1,6 +1,6 @@
 # Yapay Zeka ve Meslekler
 
-[Siteyi Ziyaret Et](https://yigitbozbulut657.github.io/Yapay-zeka-Meslekler/)
+   [**SİTEYİ ZİYARET ET**](https://yigitbozbulut657.github.io/Yapay-zeka-Meslekler/)
 
 ![Karekod](Karekod.png)
 
